@@ -21,3 +21,4 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.send_message(email)
     print('Enviado')
 
+    
